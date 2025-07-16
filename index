@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aakash JEE Infographic</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Light gray background */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        /* Custom blue color from the ad */
+        .aakash-blue {
+            background-color: #0056b3; /* A shade of blue similar to the ad */
+        }
+        .aakash-yellow {
+            background-color: #ffc107; /* A shade of yellow similar to the ad */
+        }
+        .text-aakash-blue {
+            color: #0056b3;
+        }
+        .text-aakash-darkblue {
+            color: #003366; /* A darker shade for headlines */
+        }
+        .border-aakash-blue {
+            border-color: #0056b3;
+        }
+        .shadow-aakash {
+            box-shadow: 0 10px 15px -3px rgba(0, 86, 179, 0.1), 0 4px 6px -2px rgba(0, 86, 179, 0.05);
+        }
+        /* SVG Icon styling */
+        .icon-svg {
+            fill: currentColor;
+            width: 24px;
+            height: 24px;
+        }
+        /* Specific styling for success story cards */
+        .success-card {
+            background-color: #ffffff;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .success-card-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 9999px; /* Full circle */
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border: 3px solid #0056b3; /* Aakash blue border */
+        }
+        .result-tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+        .result-qualified {
+            background-color: #d1fae5; /* Green light */
+            color: #065f46; /* Green dark */
+        }
+        .result-not-qualified {
+            background-color: #fee2e2; /* Red light */
+            color: #991b1b; /* Red dark */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container bg-white rounded-lg shadow-xl my-8 overflow-hidden">
+
+        <!-- Header Section -->
+        <header class="aakash-blue text-white p-6 rounded-t-lg flex flex-col sm:flex-row items-center justify-between">
+            <div class="flex items-center mb-4 sm:mb-0">
+                <!-- Aakash Logo -->
+                <img src="https://placehold.co/100x40/0056b3/ffffff?text=Aakash+Logo" alt="Aakash Logo" class="h-10 sm:h-12 mr-3">
+            </div>
+            <div class="text-center sm:text-right">
+                <p class="text-lg font-semibold">TAKE YOUR POWER STEP (PS)</p>
+                <p class="text-3xl sm:text-4xl font-black uppercase tracking-wide">TO REDEFINE YOUR POTENTIAL.</p>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="p-6 sm:p-10 flex flex-col md:flex-row items-center gap-8">
+            <div class="md:w-1/2">
+                <p class="text-lg sm:text-xl font-medium mb-4 text-gray-800 leading-relaxed">
+                    You're aiming for cracking JEE. You know it takes more than just hard work — it takes direction, discipline, and the right mentorship.
+                </p>
+                <div class="bg-blue-50 border-l-4 border-aakash-blue p-4 rounded-md shadow-sm">
+                    <p class="text-gray-700 text-base sm:text-lg">
+                        At Aakash, we don't just coach. We nurture ambition. With 37+ years of legacy, world-class faculty, and a rigorous academic system, we empower you with everything you need to excel — clarity in concept, consistency in effort, and confidence in outcome.
+                    </p>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center items-center">
+                <!-- Main Student Image -->
+                <img src="https://drive.google.com/uc?export=view&id=1DNn7_vTk7bYAxbxVqrh2GNtFKI3O949W" alt="Main Student" class="w-full max-w-sm h-auto rounded-lg shadow-lg">
+            </div>
+        </section>
+
+        <!-- Why Aakash Section -->
+        <section class="bg-blue-50 p-6 sm:p-10 rounded-b-lg">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-center text-aakash-darkblue mb-8">WHY AAKASH</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Feature 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex items-start space-x-4">
+                    <div class="flex-shrink-0 bg-aakash-blue text-white rounded-full p-3">
+                        <svg class="icon-svg" viewBox="0 0 24 24">
+                            <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-1">Top Faculties & Mentors</h3>
+                        <p class="text-gray-700">Powered by India's Top JEE Faculties & Mentors</p>
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex items-start space-x-4">
+                    <div class="flex-shrink-0 bg-aakash-blue text-white rounded-full p-3">
+                        <svg class="icon-svg" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-1">Proven Track Record</h3>
+                        <p class="text-gray-700">Proven Track Record of AIRs in JEE Main & Advanced</p>
+                    </div>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex items-start space-x-4">
+                    <div class="flex-shrink-0 bg-aakash-blue text-white rounded-full p-3">
+                        <svg class="icon-svg" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-1">4-Layered Testing System</h3>
+                        <p class="text-gray-700">4-Layered Testing System with AI-based diagnostics</p>
+                    </div>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex items-start space-x-4">
+                    <div class="flex-shrink-0 bg-aakash-blue text-white rounded-full p-3">
+                        <svg class="icon-svg" viewBox="0 0 24 24">
+                            <path d="M20 6h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-6 0h-4V4h4v2z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-1">Tech-Integrated Classrooms</h3>
+                        <p class="text-gray-700">Tech-Integrated Classrooms with Hybrid Learning Support</p>
+                    </div>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex items-start space-x-4">
+                    <div class="flex-shrink-0 bg-aakash-blue text-white rounded-full p-3">
+                        <svg class="icon-svg" viewBox="0 0 24 24">
+                            <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-1">1:1 Performance Coaching</h3>
+                        <p class="text-gray-700">1:1 Performance Coaching for continuous improvement</p>
+                    </div>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex items-start space-x-4">
+                    <div class="flex-shrink-0 bg-aakash-blue text-white rounded-full p-3">
+                        <svg class="icon-svg" viewBox="0 0 24 24">
+                            <path d="M19 12h-2v3h-3v2h5v-5zM7 9h3V7H5v5h2V9zm14-6H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-1">Study Material & Modules</h3>
+                        <p class="text-gray-700">Study Material & Modules curated from 37+ years of expertise</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Success Stories Section -->
+        <section class="bg-white p-6 sm:p-10 mt-8 rounded-lg">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-center text-aakash-darkblue mb-8">OUR SUCCESS STORIES</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Student 1: Shohan -->
+                <div class="success-card">
+                    <img src="https://placehold.co/120x120/0056b3/ffffff?text=Shohan" alt="Shohan" class="success-card-image">
+                    <h3 class="text-2xl font-bold text-aakash-darkblue mb-2">Shohan</h3>
+                    <div class="w-full text-left mb-4">
+                        <p class="text-base font-semibold text-gray-800 mb-2">JEE 2024 Status:</p>
+                        <span class="result-tag result-not-qualified">JEE (Adv.) 2024: Not Qualified</span>
+                        <span class="result-tag result-not-qualified mt-1">JEE (Main) 2024: Not Eligible for CSE in any NIT</span>
+                        <p class="text-base font-semibold text-gray-800 mt-4 mb-2">JEE 2025 Result:</p>
+                        <span class="result-tag result-qualified">JEE Advanced Qualified</span>
+                        <p class="text-sm text-gray-700 mt-2">Eligible for 105 courses in 23 IITs*</p>
+                        <p class="text-sm text-gray-700">Eligible for CSE in 20 NITs*</p>
+                    </div>
+                </div>
+
+                <!-- Student 2: Rehan Khan -->
+                <div class="success-card">
+                    <img src="https://placehold.co/120x120/0056b3/ffffff?text=Rehan" alt="Rehan Khan" class="success-card-image">
+                    <h3 class="text-2xl font-bold text-aakash-darkblue mb-2">Rehan Khan</h3>
+                    <div class="w-full text-left mb-4">
+                        <p class="text-base font-semibold text-gray-800 mb-2">JEE 2024 Status:</p>
+                        <span class="result-tag result-not-qualified">JEE (Adv.) 2024: Not Qualified</span>
+                        <span class="result-tag result-not-qualified mt-1">JEE (Main) 2024: Not Eligible for CSE in any NIT</span>
+                        <p class="text-base font-semibold text-gray-800 mt-4 mb-2">JEE 2025 Result:</p>
+                        <span class="result-tag result-qualified">JEE Advanced Qualified</span>
+                        <p class="text-sm text-gray-700 mt-2">Eligible for 30 courses in 13 IITs*</p>
+                        <p class="text-sm text-gray-700">Eligible for AI & CSE related courses in 24 NITs*</p>
+                    </div>
+                </div>
+
+                <!-- Student 3: Harshitha.K -->
+                <div class="success-card">
+                    <img src="https://placehold.co/120x120/0056b3/ffffff?text=Harshitha" alt="Harshitha.K" class="success-card-image">
+                    <h3 class="text-2xl font-bold text-aakash-darkblue mb-2">Harshitha.K</h3>
+                    <div class="w-full text-left mb-4">
+                        <p class="text-base font-semibold text-gray-800 mb-2">JEE 2024 Status:</p>
+                        <span class="result-tag result-not-qualified">JEE (Adv.) 2024: Not Qualified</span>
+                        <span class="result-tag result-not-qualified mt-1">JEE (Main) 2024: Not Eligible for CSE in any NIT</span>
+                        <p class="text-base font-semibold text-gray-800 mt-4 mb-2">JEE 2025 Result:</p>
+                        <span class="result-tag result-qualified">JEE Advanced Qualified</span>
+                        <p class="text-sm text-gray-700 mt-2">Eligible for 77 courses in 23 IITs*</p>
+                        <p class="text-sm text-gray-700">Eligible for AI & CSE related courses in 29 NITs*</p>
+                    </div>
+                </div>
+
+                <!-- Student 4: Bhargav -->
+                <div class="success-card">
+                    <img src="https://placehold.co/120x120/0056b3/ffffff?text=Bhargav" alt="Bhargav" class="success-card-image">
+                    <h3 class="text-2xl font-bold text-aakash-darkblue mb-2">Bhargav</h3>
+                    <div class="w-full text-left mb-4">
+                        <p class="text-base font-semibold text-gray-800 mb-2">JEE 2024 Status:</p>
+                        <span class="result-tag result-not-qualified">JEE (Adv.) 2024: Not Qualified</span>
+                        <span class="result-tag result-not-qualified mt-1">JEE (Main) 2024: Not Eligible for CSE in any NIT</span>
+                        <p class="text-base font-semibold text-gray-800 mt-4 mb-2">JEE 2025 Result:</p>
+                        <span class="result-tag result-qualified">JEE Advanced Qualified</span>
+                        <p class="text-sm text-gray-700 mt-2">Eligible for 76 courses in 22 IITs*</p>
+                        <p class="text-sm text-gray-700">Eligible for AI & CSE related courses in 23 NITs*</p>
+                    </div>
+                </div>
+
+                <!-- Student 5: Adhik -->
+                <div class="success-card">
+                    <img src="https://placehold.co/120x120/0056b3/ffffff?text=Adhik" alt="Adhik" class="success-card-image">
+                    <h3 class="text-2xl font-bold text-aakash-darkblue mb-2">Adhik</h3>
+                    <div class="w-full text-left mb-4">
+                        <p class="text-base font-semibold text-gray-800 mb-2">JEE 2024 Status:</p>
+                        <span class="result-tag result-not-qualified">JEE (Advanced) 2024: Didn't Qualify</span>
+                        <span class="result-tag result-not-qualified mt-1">NIT Calicut: No Seat Allotted.</span>
+                        <p class="text-base font-semibold text-gray-800 mt-4 mb-2">JEE 2025 Result:</p>
+                        <span class="result-tag result-qualified">Qualified JEE Advanced</span>
+                        <p class="text-sm text-gray-700 mt-2">Eligible for 73 courses in 22 IITs*</p>
+                        <p class="text-sm text-gray-700">Eligible for CSE at NIT Calicut*</p>
+                    </div>
+                </div>
+
+            </div>
+            <p class="text-center text-sm text-gray-500 mt-8">*Eligibility and course offerings are subject to change and official JEE counseling processes.</p>
+        </section>
+
+        <!-- New Section: What Made the Difference -->
+        <section class="bg-blue-50 p-6 sm:p-10 mt-8 rounded-lg">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-center text-aakash-darkblue mb-8">WHAT MADE THE DIFFERENCE: AAKASH'S APPROACH</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <ul class="list-disc list-inside text-gray-700 text-lg space-y-2">
+                    <li>Deep error analysis, topic & time-wise, with personalized timetables for strengths & gaps.</li>
+                    <li>Adaptive mock tests with instant feedback and strategic mock tests with smart feedback loops.</li>
+                </ul>
+                <ul class="list-disc list-inside text-gray-700 text-lg space-y-2">
+                    <li>Concept-first learning with focused revision, emphasizing clarity over rote learning.</li>
+                    <li>Comprehensive learning modules (Capsules for Class & Home) and a blended learning approach for total control.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Long-Term Batches Section -->
+        <section class="aakash-yellow text-aakash-darkblue p-6 sm:p-8 text-center mt-8 rounded-b-lg">
+            <h2 class="text-3xl sm:text-5xl font-black uppercase tracking-wider">LONG-TERM BATCHES</h2>
+            <p class="text-xl sm:text-2xl font-bold mt-2">FOR JEE 2026 (XII PASSED STUDENTS)</p>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="p-6 sm:p-10 text-center">
+            <p class="text-lg sm:text-xl font-medium text-gray-700 mb-4">
+                This is not just coaching. This is your path to IIT.
+            </p>
+            <p class="text-xl sm:text-2xl font-semibold text-aakash-darkblue mb-6">
+                Enroll now for the AAKASH Long-Term JEE Program and begin your journey with competence, confidence, and conviction.
+            </p>
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-aakash-blue uppercase tracking-wide">CRACK JEE THE AAKASH WAY</h2>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="aakash-blue text-white p-6 sm:p-8 mt-8 rounded-b-lg flex flex-col sm:flex-row items-center justify-around text-center sm:text-left gap-6">
+            <div class="flex flex-col items-center">
+                <div class="bg-white p-2 rounded-md mb-2">
+                    <img src="https://placehold.co/80x80/0056b3/ffffff?text=QR" alt="QR Code" class="w-20 h-20 rounded-md">
+                </div>
+                <p class="text-sm">Scan for the Nearest Branch</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="bg-white p-2 rounded-md mb-2">
+                    <img src="https://placehold.co/80x80/0056b3/ffffff?text=QR" alt="QR Code" class="w-20 h-20 rounded-md">
+                </div>
+                <p class="text-sm">Scan the QR Code to Download<br><span class="font-bold">Aakash App</span></p>
+            </div>
+            <div class="flex items-center text-lg font-semibold">
+                <svg class="icon-svg mr-2" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.46.57 3.57.11.35.03.74-.25 1.02L6.62 10.79z"/>
+                </svg>
+                <span>1800-102-2727</span>
+            </div>
+            <div class="flex items-center text-lg font-semibold">
+                <svg class="icon-svg mr-2" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+                <span>aakash.ac.in</span>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
